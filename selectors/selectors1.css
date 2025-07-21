@@ -1,0 +1,37 @@
+table{
+    border-collapse: separate;
+      border-spacing: 10px;
+     
+}
+td{
+    border: 1px solid black;
+    width: 50px;
+    height: 50px;
+    vertical-align: middle;
+    text-align: center;
+   font-weight: bolder;
+   
+}
+ td:nth-child(odd) {
+      background-color: red;
+    }
+ td:nth-child(even) {
+      background-color: blue;
+    }
+.color7{
+    color: white;
+}
+td:nth-child(n+4) {
+      font-size: 24px;        
+      
+    }
+
+p a:link  {
+    color: green;
+  }  
+li a:link{
+    color: red;
+} 
+.number{
+color: blue;
+}

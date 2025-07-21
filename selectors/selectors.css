@@ -1,0 +1,59 @@
+*{
+    background-color: rgb(195, 242, 242);
+}
+.News{
+    width: 50%;
+}
+.heading1{
+border: 2px solid black;
+margin-bottom:10px ;
+padding: 5px;
+background-color: white;
+}
+.heading2{
+border: 2px dotted red ;
+color: red;
+margin-bottom:10px ;
+padding: 5px;
+background-color: white;
+}
+.heading3{
+border: 2px solid black;
+margin-bottom:10px ;
+padding: 5px;
+background-color: white;
+}
+div > p , h2{
+    background-color: white;
+}
+mark{
+    background-color: sandybrown;
+}
+.yellow{
+    background-color: yellow;
+}
+.heading1b{
+border: 2px solid black;
+margin-bottom:10px ;
+padding: 5px;
+background-color: white;
+box-shadow:5px 5px 5px black;
+border-radius: 10px;
+}
+.heading2b{
+border: 2px dotted red ;
+color: red;
+margin-bottom:10px ;
+padding: 5px;
+background-color: white;
+box-shadow: 5px 5px 5px red;
+border-radius: 10px;
+}
+.heading3b{
+border: 2px solid black;
+margin-bottom:10px ;
+padding: 5px;
+background-color: white;
+box-shadow: 5px 5px 5px black;
+border-radius: 10px;
+}

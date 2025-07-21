@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise #2: Subscription form </title>
+    <link rel="stylesheet" href="exrcise4.css">
+</head>
+<body>
+    <form >
+        <fieldset>
+    <legend>Personal details </legend>
+    
+    <label>First name:</label><input type="text"><br>
+    <label>Last name:</label><input type="text"><br>
+    <label>Email address:</label><input type="email"><br>
+    <label>Gender:</label><input type="radio" name="Gender" value="Male">
+    <label>Male</label>
+    <input type="radio" name="Gender" value="Female">
+    <label>Female</label>
+</fieldset>
+<fieldset>
+<legend>Magazines</legend>
+
+<input type="checkbox" name="Stavanger" value="1"><label>Stavanger Aftenblad</label><br>
+<input type="checkbox" name="Teknisk" value="2"><label>Teknisk Ukeblad</label><br>
+<input type="checkbox" name="Se og" value="3"><label >Se og Hor</label><br>
+<input type="checkbox" name="Familien" value="4"><label >Familien</label><br>
+</fieldset>
+<fieldset>
+<legend>Subscription</legend>
+<label>Period:</label><input type="number" name="months" min="1" max="12" value="6" >months<br>
+</fieldset>
+<button>Subscribe</button>
+ </form>   
+</body>
+</html>

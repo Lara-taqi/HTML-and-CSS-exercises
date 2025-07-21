@@ -1,0 +1,77 @@
+.blue{
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.First-H{
+color: blue;
+font-family: garamond;
+
+}
+.Second-H{
+color: black;
+font-weight:bold ;
+font-family: Arial, Helvetica, sans-serif;
+text-shadow: 1px 1px 0 black;
+font-size: 30px;
+}
+.First-p{
+font-family: sans-serif;
+font-size: larger
+}
+.Second-p{
+text-align: right;
+font-family: serif;
+font-size: larger;
+}
+.first-heading{
+color: blue;
+font-family: 'Open Sans', sans-serif; 
+
+margin-bottom: 10px;
+}
+.second-heading{
+color: black;
+font-weight:bold ;
+font-family: Arial, Helvetica, sans-serif;
+text-shadow: 1px 1px 0 black;
+font-size: 30px;
+}
+.first-parag{
+font-family: sans-serif;
+font-size: larger
+}
+.second-parag{
+text-align: right;
+font-family: serif;
+font-size: larger;
+}
+.parag2{
+    background-color: rgb(197, 195, 195);
+}
+.parag1{
+    background-image:url(confidential.jpg) ;
+    background-position: left;
+    background-repeat: no-repeat;
+    
+}
+table {
+    border-collapse: separate;
+    border-spacing:10px ;
+}
+td{
+    width: 100px;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow:0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.property{
+    color: blue;
+    margin-left: 30px;
+    font-weight: bold;
+}
+.value{
+    color: green;
+    font-weight: bold;
+}
